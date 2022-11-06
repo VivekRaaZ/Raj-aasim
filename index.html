@@ -10,15 +10,15 @@
     <nav id="navbar">
       <header>JS Documentation</header>
 
-      <a class="nav-link" href="#Intoduction">Introduction</a>
-      <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
-      <a class="nav-link" href="#JavaScript_and_Java">#JavaScript and Java</a>
-      <a class="nav-link" href="#Hello_World">#Hello World</a>
-      <a class="nav-link" href="#Variables">#Variables</a>
-      <a class="nav-link" href="#if...else_statement">if...else statement</a>
+      <a href="#Intoduction" class="nav-link"><li>Introduction</li></a>
+      <a href="#What_you_should_already_know" class="nav-link"><li>What you should already know</li></a>
+      <a href="#JavaScript_&_Java" class="nav-link">JavaScript & Java</li></a>
+      <a href="#Hello_world" class="nav-link">Hello world</li></a>
+      <a href="#Variables" class="nav-link"><li>Variables</li></a>
+      <a href="#if...else_statement" class="nav-link"><li>if...else statement</li></a>
     </nav>
     <main id="main-doc">
-      <section class="main-section" id="Introduction">
+      <section id="Introduction" class="main-section" >
         <header>Introduction</header>
         <article>
           <p>
@@ -38,7 +38,8 @@
           </ul>
         </article>
       </section>
-      <selction class="main-section" id="What_you_should_already_know"><header>What you should already know</header>
+      <section id="What_you_should_already_know" class="main-section" >
+        <header>What you should already know</header>
       <article>
         <p>
           This guide assumes you have the following basic background:</p>
@@ -52,27 +53,33 @@
           </ul>
         </p>
       </article>
-      </selction>
-      <section class="main-section" id="JavaScript_and_Java"><header>#JavaScript and Java</header>
+      </section>
+      <section id="JavaScript_&_Java" class="main-section" >
+        <header>JavaScript & Java</header>
       <article>
         <p>
-          JavaScript and Java are similar in some ways but fundamentallu different in some others.
+          JavaScript & Java are similar in some ways but fundamentallu different in some others.
         </p>
-        
+
         <p>
           In contrast to Java's compile-time system of classes built by declarations, JavaScript Supports a runtime system based on a small number of data types represnting numeric, Boolean, and string values.
         </p>
       </article>
       </section>
-      <section class="main-section" id="Hello_World"><header>Hello World</header>
+      <section id="Hello_world" class="main-section" >
+        <header>Hello world</header>
       <article>
-        To get started with writing JavaScript, open the Scratchpad and weite your first "Hello World!" JavaScript code.
-        <code>function greetMe(yourName){alert("Hello" + yourName);} greetMe("World");
-        </code>
+        <p>
+        To get started with writing JavaScript, open the Scratchpad and weite your first "Hello world" JavaScript code:
+        </p>
+        <code>function greetMe(yourName){alert("Hello" + yourName);} greetMe("world");</code>
+        <p>
         Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
+        </p>
       </article>
       </section>
-      <section class="main-section" id="Variables"><header>Variables</header>
+      <section id="Variables" class="main-section" >
+        <header>Variables</header>
         <p>
           You use Variables as symbolic names for values in your appllication. The names of variables, called identifiers, conform to certain rules.
         </p>
@@ -83,9 +90,11 @@
           You can ISO 8859-1 or Unicode letters such as a and u in identifiers.
         </p>
       </section>
-      <section class="main-section" id="if...else_statement"><header>if...else statement</header>
-      <article>Use the if statement to execute a statement if a logical condition is true.
-        <code>if(condition) { statement_1; }else { statement_2 }</code>condition can be any expression that evaluates to true or false.
+      <section id="if...else_statement" class="main-section" >
+        <header>if...else statement</header>
+      <article>
+        Use the if statement to execute a statement if a logical condition is true.
+        <code>if(condition) { statement_1; }else { statement_2 } condition can be any expression that evaluates to true or false.</code>
         <p>
           You may also compoud the statements using else if to have multiple conditions tested in sequence, as follows:
         </p>
@@ -95,7 +104,7 @@
         <code>if ( condition ) { statement_1_runs_if_condition_is_true; statement_2_runs_if_condition_is_true; } else { statement_3_runs_if_condition_is_false; statement_4_runs_if_condition_is_false; } 
         </code>
         it is advisable to not use simple assignments in a conditionl expression, because the assignments can be condused with equality when glancing over the code.
-        <code>if((x=y)){/*statements here*/}</code>
+        <code>if((x=y)){/*statements here*/} </code>
       </article>
       </section>
     </main>
